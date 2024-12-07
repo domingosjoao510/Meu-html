@@ -2,7 +2,7 @@ Este site foi criado NO Vscode somente com o HTML e CSS.
 
 Codigos da criação do site html e css passo por passo
 
-HTML 
+Programação pelo HTML 
 
 <!DOCTYPE html>
 <html lang="en">
@@ -81,3 +81,65 @@ HTML
    
 </body>
 </html>
+
+
+Programação pelo CSS
+
+body {
+  color: white;
+  background-color: black;
+font-family: Arial, Helvetica, sans-serif;
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 16px;
+
+     }
+
+    a {
+        color: white;
+        text-decoration: none
+
+         }
+        
+       header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid blue;
+             }
+
+
+    .center {
+      text-align: center;
+    }
+    h1 {
+        color: blue;
+
+ }
+
+ footer img {
+  width: 60px;
+  height: 60px;
+ }
+
+ footer {
+  display: flex;
+  justify-content: center;
+ }
+
+ footer a {
+  margin: 30px;
+  text-align: center
+  ;
+
+ }
+
+ .container {
+  padding: 0px 50px;
+ }
+nav a:hover{
+  color: blue;
+}
