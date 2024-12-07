@@ -1,0 +1,83 @@
+Este site foi criado NO Vscode somente com o HTML e CSS.
+
+Codigos da criação do site html e css passo por passo
+
+HTML 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>João Donga</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                  <li>
+                      <a href="index.html">Sobre mim</a>
+                  </li>
+                  <li>
+                    <a href="project.html">Projecto</a>
+                    <li>
+                    <a href="contact.html">Contato</a>
+                </ul>
+         </nav> 
+                            
+    
+    <header>
+        <div class="center">
+            <img src="./image/João JGP.jpeg"></img>
+        </div>
+        <h1>João Domingos Donga</h1>
+        <h2>Analista de Suporte Jr</h2>
+       </header>
+       <main>
+        <section>
+            <h3>Sobre mim</h3>
+            <p>
+                Olá eu sou o João, seja bem-vindo (a) ao meu site!
+    
+    Sou Angolano moro no Brasil em São Paulo, Sou um profissional com um sentido de responsabilidade, disciplinado, apaixonado por resolver problemas tanto de suporte para N1 e N2 até aos mais complexos.
+    
+    Gosto de desafios complexos para solucionar diariamente, busco me aprimorar e mergulhar profundamente no mundo da tecnologia, aberto para aprender e passar meus conhecimentos. 
+    
+    Sou formado em Analise de Desenvolvimento de Sistemas, com mais de um ano e sete meses de atuação em Analista de Suporte Técnico na frente de sustentação trabalhando com reparo e configurações de maquinas correção, instalações de softwares, e debug, erros em qualquer sistemas de programação, erros de códigos de sistemas em Dbeaver, Python, Power BI, Microsoft Excel e as demais ferramentas. 
+    
+    Tenho experiência com Postman, C#, #Net, Sql server, Toad, Service manager e Notepad++.
+    Sólidos conhecimentos em HTML e CSS, Nod js e Java Scripts, Office 365. Conhecimento em Windows, conhecimento de infraestrutura de rede, Habilidades em Firewalls Fortinet e Switches HP.
+    
+            </p>
+        </section>
+        <section>
+            <h3>Formação Acadêmica</h3>
+            <p>
+                Sou formado na Universidade Anhembi Morumbi (UAM) em São Paulo, do curso superior de tecnologia em  Analises e Desenvolvimento de Sistema com inicio em Novembro de 2021 a Setembro de 2024. 
+            </p>
+        </section>
+       
+       <section>
+        <h3>Cursos Complementares com certificação</h3>
+        <p>
+            Tenho certificações nos seguintes Curso de office 365, Power BI, SQL server, Segurança em Tecnologia, conceitos fundamentais de IA-900, Microsoft 365 Fundamentais MS-900, Fundamentos de IA generativa Claude 3, Microsoft Azure Fundamentais AZ-900, Computação em Nuvem AWS Discovery Day, Python, Introdução a Programação, HTML5, CSS3, Java Script, a nova era da inteligência artificial generativa, ITIL 4, Microsoft Security, Compliance, and Identity Fundamentals (SC-900) e muitas outras certificação.  
+        </p>
+    </section>
+    </main>
+    
+    
+    <footer>
+        <a href="https://github.com/domingosjoao510?tab=stars" target=" _blank" rel="noopener noreferrer"> 
+            <img src="./image/github.png"></img>
+            <p>Github</p>
+        </a>
+        <a href="https://www.linkedin.com/in/jo%C3%A3o-domingos-donga-491786229/" target=" _blank" rel="noopener noreferrer"> 
+            <img src="./image/Linkedin.png"></img>
+            <p>Linkedin</p>
+        </a>
+    </footer>
+    </div>
+   
+</body>
+</html>
